@@ -1,63 +1,45 @@
 import re
-import spacy
-from spacy.matcher import PhraseMatcher
 import PyPDF2
 from datetime import datetime
 import pandas as pd
 
-# Load the spaCy model
-try:
-    nlp = spacy.load("en_core_web_lg")
-except OSError:
-    print("Downloading 'en_core_web_lg' model... This may take a moment.")
-    from spacy.cli import download
-    download("en_core_web_lg")
-    nlp = spacy.load("en_core_web_lg")
-
 def extract_text_from_pdf(file_obj):
-    """Extracts text from a PDF file object."""
     try:
         reader = PyPDF2.PdfReader(file_obj)
         text = "".join(page.extract_text() for page in reader.pages if page.extract_text())
         return text
     except Exception as e:
-        print(f"Error reading PDF: {e}")
         return None
 
 def extract_name(text):
-    """Extracts the name from the resume text."""
     lines = text.split('\n')
-    for line in lines[:5]: # Check the first 5 lines
-        if len(line.strip().split()) in [2, 3]: # A name is usually 2 or 3 words
+    for line in lines[:5]:
+        if len(line.strip().split()) in [2, 3]:
             return line.strip()
     return "Name not found"
 
 def extract_email(text):
-    """Extracts the email address from the text using regex."""
     email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
     match = re.search(email_pattern, text)
     return match.group(0) if match else "Email not found"
 
 def extract_skills(text):
-    """Extracts skills using a predefined list from skills_list.txt."""
+    """Extracts skills using regex and the skills_list.txt file."""
     try:
         with open('skills_list.txt', 'r') as f:
-            skills_list = [line.strip().lower() for line in f]
+            skills_list = [line.strip() for line in f]
     except FileNotFoundError:
         return ["SKILLS FILE NOT FOUND"]
     
-    matcher = PhraseMatcher(nlp.vocab, attr='LOWER')
-    patterns = [nlp.make_doc(skill) for skill in skills_list]
-    matcher.add("SKILL", patterns)
+    # Build a regex pattern to find any of the skills as whole words
+    skill_pattern = r"\b(" + "|".join(re.escape(skill) for skill in skills_list) + r")\b"
     
-    doc = nlp(text)
-    matches = matcher(doc)
+    found_skills = re.findall(skill_pattern, text, re.IGNORECASE)
     
-    found_skills = set(doc[start:end].text.lower() for _, start, end in matches)
-    return list(found_skills)
+    # Return a unique, sorted list of skills found
+    return sorted(list(set(skill.lower() for skill in found_skills)))
 
 def extract_experience(text):
-    """Extracts total years of work experience."""
     date_pattern = r'((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)[\s,]+\d{4}|(?:\d{1,2}\/\d{4}))\s*-\s*((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)[\s,]+\d{4}|(?:\d{1,2}\/\d{4})|Present|Current)'
     
     matches = re.finditer(date_pattern, text, re.IGNORECASE)
@@ -65,7 +47,6 @@ def extract_experience(text):
     
     for match in matches:
         start_date = pd.to_datetime(match.group(1), errors='coerce')
-        
         if match.group(2).lower() in ['present', 'current']:
             end_date = pd.to_datetime(datetime.now())
         else:
@@ -77,9 +58,7 @@ def extract_experience(text):
 
     return round(total_months / 12, 1)
 
-
 def parse_resume(file_obj):
-    """Orchestrates the complete parsing of an uploaded resume."""
     text = extract_text_from_pdf(file_obj)
     if not text:
         return None

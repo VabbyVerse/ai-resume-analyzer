@@ -4,4 +4,3 @@ numpy
 scikit-learn
 sentence-transformers
 PyPDF2
-spacy==3.7.2
