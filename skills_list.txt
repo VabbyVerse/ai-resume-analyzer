@@ -1,0 +1,27 @@
+Python
+SQL
+Pandas
+NumPy
+Scikit-learn
+TensorFlow
+PyTorch
+AWS
+Azure
+GCP
+Docker
+Kubernetes
+Git
+Tableau
+Power BI
+Machine Learning
+Deep Learning
+Data Analysis
+NLP
+Agile
+JIRA
+html
+css
+javascript
+typescript
+java
+aiml

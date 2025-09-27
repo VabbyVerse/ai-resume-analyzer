@@ -1,0 +1,267 @@
+﻿job_title,company,location,full_description,required_skills,min_experience_years,job_type
+Data Analyst,Punyakar,"New Delhi, Delhi, India","Strong Analytical Skills and expertise in Data Analytics
+Knowledge of Statistics and Data Modeling
+Excellent Communication skills for presenting data insights
+Proficient in data visualization tools and software (e.g., Tableau, Power BI)
+Ability to work collaboratively in a team environment
+Experience with programming languages like Python or R is a plus
+Bachelor's degree in Data Science, Statistics, Computer Science, or related field","python,r",2,full time
+Data Analyst,Barclays,"Noida, Uttar Pradesh, India ","To implement data quality process and procedures, ensuring that data is reliable and trustworthy, then extract actionable insights from it to help the organisation improve its operation, and optimise resources.
+
+Accountabilities
+
+
+Investigation and analysis of data issues related to quality, lineage, controls, and authoritative source identification.
+Execution of data cleansing and transformation tasks to prepare data for analysis.
+Designing and building data pipelines to automate data movement and processing.
+Development and application of advanced analytical techniques, including machine learning and AI, to solve complex business problems.
+Documentation of data quality findings and recommendations for improvement.","tableau,power bi,sql,python",0,internship
+Lead Data Scientist - Mobile Gaming & Consumer Apps,Uplers,"Ghaziabad, Uttar Pradesh, India","Experience with free-to-play mechanics, subscription models, and evolving monetisation strategies in mobile apps.
+Knowledge of programmatic advertising, real-time bidding systems, and the broader ad tech landscape.
+Hands-on Familiarity with cloud platforms (AWS, GCP, Azure) and MLOps practices
+Experience applying causal inference methods, incrementality testing, and advanced experimentation frameworks.
+Proven ability to distill complex technical findings into clear insights for C-level and business stakeholders.
+Previous experience in gaming companies, ad tech firms, or performance marketing agencies","Effective Communication, entrepreneurial mindset, Problem-Solving Excellence, Forecast Revenue, Data Science, Machine Learning",8,full time
+Risk Consulting - Digital Risk - Senior - Dev Sec,EY,"Gurugram, Haryana, India","A bachelor’s or master’s degree and approximately 3-6 years of related work experience 
+Minimum 3 years of professional experience in consulting or equivalent experience in industry, with at least 2 years of specific experience in AI ethics, responsible AI, or related fields, with a strong understanding of AI technologies and their ethical implications
+IT Pre-implementation and Post implementation reviews.
+Model Risk Management
+AI Compliance and regulatory assessments – Risk and Controls assessment of AI/ML applications in line with AI related regulations and frameworks
+Familiarity with regulatory frameworks and standards related to AI ethics, privacy and data protection 
+Excellent written and verbal communication skills across technical and non-technical audiences
+Willingness to stay updated with industry trends and AI regulatory requirements, and quickly adapt to client demands imposed by technical and regulatory change
+Communication and critical thinking are essential – must be able to listen, understand the question and develop and deliver clear insights 
+Independent and able to manage and prioritize workload 
+Excellent communication, documentation and report writing skills.
+Functional understanding of foundation models (LLMs) and associated risks. Awareness of the AI deployment lifecycle
+Knowledge of Responsible AI principles, AI Ethics and AI Assurance
+Ability to identify process level risk arising from the use of AI and develop mitigation strategies.
+Good to have relevant industry certifications such as AIGP, CISA, CISM, CISSP, CRISC, CCSK, ISO 27001, and others (as relevant)","python,sql,r,java,scala,hadoop,hive,sap,oracle,ibm,tableau,power bi,aws,azure,google could",3,internship
+Data Analytics,Deloitte,"Delhi, India","Strong hands-on experience analyzing large datasets in Excel, CSV, and API-based data sources.
+Proficient in complex Excel formulas, pivot tables, and data visualization.
+Business Rules Implementation: Experienced in designing and applying business logic within Excel models and automated workflows.
+Expertise in handling raw data, applying formulas, and preparing structured datasets for insights.
+Ability to work with large datasets efficiently, ensuring accuracy and speed in reporting.","excel,api,data visualization",6,full time
+Sr Data Engineer,Aristocrat,"Noida, Uttar Pradesh, India","Architect scalable, secure, and cost-efficient batch data platforms 
+Spearhead the creation and establishment of data pipelines with Airflow and dbt 
+Develop and review Snowflake-based models, storage layers, and warehouse optimization strategies 
+Write and review production-level SQL and Python code for data workflows and utilities 
+Ensure data quality and observability practices are integrated from the ground up 
+Collaborate with multi-functional teams to define solutions that meet analytics and reporting needs 
+Guide and mentor data engineers, conduct architectural reviews, and improve engineering standards 
+Evaluate and integrate emerging tools, frameworks, and cloud-native solutions","python,sql,aws,azure,git,power bi",5,full time
+Data Analytics Internship,Scoutit,"Noida, Uttar Pradesh, India","Build & maintain backend data processes and pipelines.
+Write optimized SQL queries for data extraction & analysis.
+Create and manage performance dashboards.
+Automate recurring reports for business tracking.
+Generate actionable insights from data to support decision-making.",sql,0,full time
+Business Analyst - SQL/Python,WeCredit,"Delhi, Delhi, India","Business Knowledge : Strong understanding of financial technology, banking, investing, insurance, and risk management
+ Communication Skills : Ability to effectively collaborate with cross-functional teams and stakeholders
+ Problem-Solving Skills : Proficiency in analyzing complex business problems and identifying effective solutions
+ Critical Thinking Skills : Capacity to interpret trends, evaluate methods, and provide data-driven insights
+ System/Technical Skills : Familiarity with data analysis tools (e.g., SQL, Excel, Tableau),","sql,python.mechine learning",2,full time
+Full Stack Engineer,Lalitech,"Noida, Uttar Pradesh, India","Proficiency in JavaScript (ES6+), Webpack, Mocha, Jest
+Experience with recent frontend frameworks – React.js, Redux.js, Node.js (or similar)
+Deep understanding of HTML5, CSS3, SASS/LESS, and Content Management Systems
+Ability to design and implement RESTful APIs and understand their impact on client-side applications
+Familiarity with cloud platforms (AWS, Azure, or GCP) – deployment, storage, and scalability
+Experience working with Agile and Scrum methodologies
+Strong backend expertise in Java, J2EE, Spring Boot is a plus but not mandatory","Fullstack Developer, Javascript, React.js, NodeJS (Node.js), RESTful APIs, HTML/CSS, Amazon Web Services (AWS), Google Cloud Platform (GCP), Agile/Scrum, Artificial Intelligence (AI) ,Generative AI",0,internship
+Full Stack Developer – Python + Angular,BIG Language Solutions,"Noida, Uttar Pradesh, Indi","Develop and maintain frontend applications using Angular (latest versions), ensuring responsive and intuitive user interfaces.
+Design, implement, and optimize backend services and APIs using Python (Django, Flask, or FastAPI).
+Build and integrate RESTful APIs and GraphQL services for application functionality.
+Work with SQL and NoSQL databases to design schemas, queries, and data pipelines.
+Ensure code quality through unit testing, integration testing, and CI/CD practices.
+Collaborate with cross-functional teams (UI/UX designers, QA, DevOps) to deliver product features.
+Optimize applications for performance, scalability, and security.
+Participate in code reviews, agile ceremonies, and architectural discussions.","aws,azure,git,html,css,typescript,javacript",6,internship
+Senior Machine Learning Engineer,Uplers,"Ghaziabad, Uttar Pradesh, India","Bachelor’s, Master’s, or PhD in Computer Science, Engineering, or a related field
+5+ years of experience in building, deploying, and scaling machine learning models in production environments
+Experience deploying Generative AI models in production environments, with a strong understanding of Retrieval-Augmented Generation (RAG), AI Agents, and expertise in prompt engineering techniques
+Proven experience with the full product lifecycle, taking models from R&D to deployment in fast-paced environments
+Experience working in a product-based company, preferably within a startup environment with early-stage technical product development
+Strong expertise in Python and SQL, along with experience in cloud platforms (AWS, GCP, or Azure) and containerization (Docker, Kubernetes)
+Experience with real-time data processing, anomaly detection, and time-series forecasting in production
+Experience working with large datasets and big data technologies like Spark and Kafka to build scalable solutions
+First-principles thinking and excellent problem-solving skills, with a proactive approach to addressing challenges
+A self-starter mentality, with the ability to take ownership of projects from end to end and work autonomously to drive results
+Excellent communication skills, with the ability to convey complex technical concepts and a strong customer-obsessed mindset","Spark, Generative AI models, LLM, rag, AWS, Docker, GCP, Kafka, Kubernetes, Machine Learning, Python, SQL",5,full time
+Lead Assistant Manager,EXL,"Noida, Uttar Pradesh, India","4–8 years of experience in Salesforce development.
+Basic understanding of Salesforce Service Cloud and Experience Cloud.
+Exposure to Agentforce or similar agentic AI frameworks is a strong plus.
+Familiarity with Apex, SOQL, SOSL, and LWC development.
+Understanding of Salesforce data model and security concepts.
+Good problem-solving and communication skills.
+Willingness to learn and adapt to emerging technologies like Einstein AI and Data Cloud.
+Salesforce Platform Developer I certification is preferred.
+Experience with version control tools (e.g., Git) and agile development practices.","python,git,github,sql,flask ,fast api,",0,full time
+AIML Development,Best Infosystems Ltd.,"Noida, Uttar Pradesh, India ","B.Tech / M.Tech in Computer Science, AI, or related fields.
+* AI/ML Developer:2-3 years of experience in AI/ML development, strong in Python, TensorFlow/PyTorch, data engineering.
+* Senior AI/ML Developer:5-7 years of experience with expertise in LMs, deep learning, scalable architectures, and performance optimization.
+* Experience with MLOps tools MLflow, Kubeflow, Docker, Kubernetes) and cloud-based AI solutions.
+* Strong understanding of data structures, algorithms, and model deployment.
+* Be part of a team that’s shaping the future of AI-powered applications!","aiml,python,pandas,numpy,pytorch,scikit learn",5,internship
+Generative AI Engineer,Valiance Solutions,"Noida, Uttar Pradesh, India","Bachelor's or Master's degree in Computer Science, Engineering, or a related field.
+Must have 2+ years of experience with proven track record of architecting and developing software applications, preferably chatbots, information retrieval , enterprise search applications.
+Experience with extracting and organizing information from unstructured documents like pdf, word, text files and structured datasets.
+Experience working on information retrieval applications based on natural language queries.
+You have knowledge or experience working with vector databases.
+Strong programming skills in languages such as Python.
+Understanding of LLM's and prompt engineering is desired with 6 to 12 months of hands on experience
+Experience with deployment of Gen AI applications on cloud using CI/CD tools
+Excellent problem-solving skills and ability to think critically and analytically.
+Strong communication and collaboration skills, with the ability to work effectively across cross-functional teams.
+Demonstrated ability to manage multiple priorities and meet deadlines in a fast-paced environment.","llm,python,vector database,nlp",2,internship
+Senior Member of Technical Staff ML/AI,Oracle,"Noida, Uttar Pradesh, India"," 5+ years of experience as a ML/software development engineer 
+ 3+ years of experience developing cloud software services and an understanding of design for security, scalability, performance, and reliability 
+ Preferred Experience with NLP, primarily focused around clustering, topic modeling, recommendation systems etc. 
+ Hands on experience working on large-scale data science/data analytics projects and building large-scale machine learning infrastructure to support them 
+ Experience defining system architectures and exploring technical feasibility trade-offs 
+ A successful history of manipulating, processing and extracting value from large disconnected datasets 
+ Confidently taking responsibility for the technical output of a project 
+ Ability to quickly pick up new skills and learn on the job 
+ Comfortably working with various stakeholders such as TPMs, data scientists, architects and other developers 
+ Experience with Oracle Cloud Infrastructure technology stack or equivalent cloud experience 
+ Experience with ML toolkits and ML Ops 
+ Experience mentoring software development engineers ","Python, ML, TensorFlow/PyTorch",5,full time
+Lead Java Developer IRC276225,GlobalLogic,"Delhi, Delhi, India","Ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy ","java,mongo db,spring boot,rest api",5,full time
+Software Development Engineer I - Python/Django,GeeksforGeeks,"Noida, Uttar Pradesh, India","We are looking for the following technical and non-technical skills:
+
+Strong Java Development Skills: Extensive hands-on experience in Java programming is essential. The candidate should have in-depth knowledge of Java frameworks, Spring boot, Microservices, libraries, and best practices.
+
+Expertise in Enterprise Java Technologies: Proficiency in enterprise-level Java technologies such as Spring Framework, Hibernate, JPA, Java EE, and related tools is required.
+
+System Design and Architecture: Deep understanding of software architecture principles and design patterns. Experience in designing scalable, high-performance, and secure enterprise systems.
+
+Cloud Technologies: Hands on with at least one cloud platform. Preferably, MS Azure Cloud Platform. Experience in designing and deploying Java-based applications on cloud infrastructure.
+
+Microservices Architecture: Experience in designing and implementing microservices-based architectures using Java technologies. Knowledge of containerization technologies such as Docker and orchestration tools like Kubernetes.
+
+Database Management: Proficiency in database technologies SQL or NoSQL databases. Experience in designing database schemas, optimizing queries, and ensuring data integrity and security.
+
+DevOps Practices: Understanding of DevOps principles and practices, including CI/CD pipelines, automated testing, infrastructure as code (IaC), and continuous deployment.
+
+Leadership and Communication: Strong leadership skills with the ability to lead technical teams, mentor junior developers, and collaborate with stakeholders.
+
+Excellent communication skills to convey technical concepts to both technical and non-technical audiences.
+
+Problem-Solving Skills: Effective problem-solving abilities to analyze complex technical challenges and propose innovative solutions.
+
+Industry Experience: Previous experience working in healthcare or patient safety can be advantageous, as it provides domain-specific knowledge.","rest api, python , django",5,internship
+"Staff Design Engineer, Android",Adobe,"Noida, Uttar Pradesh, India "," Specialist understanding of building performant and complex UI components in the Android ecosystem, ideally having direct experience with the Android Studio, Kotlin, and Java. (5+ years)
+ Passion and desire for building user interface components with meticulous attention to design details
+ Experience building and supporting frameworks or SDKs used by other developers
+ Experience with git and GitHub, the process of contribution to open source development, and performing peer code reviews
+ Solid understanding of UI accessibility practices, standards, and testing methods
+ Practice working closely with designers, including a strong understanding of how to convert a design into code
+ A pragmatic, collaborative and open-minded outlook, and a high degree of comfort working in a fast-paced environment
+ Practice with open development, collaborative code reviews, and providing detailed feedback to other team members
+ Comfortable driving improvements to overall library architecture, testing processes, and external integrations. ","java,kotlin,uiux",6,full time
+Simulanis Solutions - UI/UX Designer - Figma/Photoshop/Illustrator,Simulanis,"Noida, Uttar Pradesh, India","Design UI for immersive applications across mobile, web, Desktop and XR platforms (AR/VR/MR)
+ Create wireframes, prototypes, user flows, mockups, and detailed UI layouts aligned with product and experience goals
+ Collaborate closely with XR developers, 3D artists, and product teams to translate design ideas into functional, user-friendly interfaces
+ Design visual assets including icons, banners, logos, and UI components using Figma, Photoshop, Illustrator, Adobe XD, etc.
+ Apply principles of usability and human-centered design to ensure intuitive XR interactions
+ Assist in conducting user research and gathering feedback for iterative improvements
+ Knowledge of motion design and video editing tools (After Effects, Premiere) is a plus for UI animations and XR Qualifications :
+ Currently pursuing a Diploma or Bachelors degree in UI/UX Design, Visual Communication, or related fields from a reputed institute
+ Strong foundational knowledge of UI, UX, graphic designing, illustration, color theory, and layout design
+ Proficiency in design tools such as Figma, Adobe XD, Illustrator and Photoshop.
+ Ability to create low and high-fidelity mockups, interactive prototypes, and wireframes
+ Exposure to or interest in designing for AR/VR or spatial interfaces is a strong plus
+ Excellent communication, collaboration, and presentation skills
+ A strong design portfolio demonstrating relevant skills will be :"," Figma, Photoshop, Illustrator, Adobe XD, ",2,full time
+Graphic Designer,elitexsolutions,"Ghaziabad, Uttar Pradesh, India ","This is a full-time, on-site role for a Graphic Designer, based in Ghaziabad. The Graphic Designer will be responsible for creating visually appealing and effective designs, developing logos, and establishing brand guidelines. The role involves working closely with the marketing team to produce engaging graphics for various platforms, ensuring consistency and alignment with the overall brand strategy.","CorelDraw, Adobe Photoshop, Canva, InDesign,",0,internship
+Javascript Developer - Remote Work,BairesDev,"Delhi, India","What You Will Do:
+
+
+- Design and develop new front-end applications for various platforms.
+- Develop new user-facing features.
+- Perform code analysis, requirements analysis, system risk analysis, and software reliability analysis
+- Be in charge of tuning, improvement, balancing, usability, and automation
+- Optimize applications for maximum speed and scalability.
+- Develop and maintain specifications and designs for complex applications.
+
+
+Here’s what we are looking for:
+
+
+- 5+ years of experience with multiple JavaScript-based technologies.
+- Familiarity with front-end build tools.
+- Knowledge of Container Tags, the HTTP protocol, Cookies, request patterns, and library-free JavaScript development. - Experience with a responsive design for desktop/mobile.
+- Advanced English level.",javascript,5,internship
+Product Manager,HCLSoftware,"Noida, Uttar Pradesh, India ","The Product Manager positions have the following roles and responsibilities:
+
+
+Develop and execute the product strategy for the customer facing portals, HCLSoftware Marketplace and My HCLSoftware, focusing on user engagement and satisfaction.
+Define and prioritize product roadmaps, aligning with business goals and customer needs.
+Define and prioritize features for customer portals based on business requirements and customer feedback.
+Work with UX/UI designers to create intuitive and engaging user experiences.
+Conduct market research and competitive analysis to identify opportunities and inform product decisions.
+Collaborate with engineering teams to develop and deliver new features and enhancements.
+Collaborate with cross-functional teams to ensure seamless integration of customer portals with other systems.
+Work with product, marketing and sales teams to promote and drive adoption of customer portals.
+Monitor and analyze platform business and performance metrics and identify areas for improvement.
+Analyze customer feedback and usage data to identify areas for improvement and optimization.
+Develop and maintain product documentation and training materials.
+Manage the product backlog and prioritize features for development.
+
+
+Qualifications
+Product Manager positions require the following qualifications:
+
+
+Bachelor's degree in Computer Science, Business Administration, or a related field.
+Proven experience of 6-8 years as a Product Manager in a software or technology company.
+Strong understanding of cloud technologies and platforms.
+Excellent communication, presentation, and interpersonal skills.
+Ability to work collaboratively with cross-functional teams.
+Strong analytical and problem-solving skill","uiux,problem solving",6,full time
+Product Marketing Manager,Best NanoTech,"Noida, Uttar Pradesh, India","Key Responsibilities:
+• Developing & executing comprehensive product strategies for New Biz Development
+• Responsible to achieve Gross Margins targets, Business Win targets, Revenue targets and market share goals. Meeting the KPIs.
+• Making Promotion Plan and Implementation to build active Design Funnel
+• Managing and building relationships with Suppliers and Strategic Customers.
+• Cross-functional collaboration with Sales & FAE teams to drive demand generation campaigns managing commercial and contractual supplier terms, ensuring margin growth.
+• Inventory Management
+• Preparing & sharing business inputs with Management through data-driven market analysis, 
+
+• Responsible for the reports for reviews with Suppliers and Meeting the KPIs from Supplier.
+
+
+Experience: 5-10 years
+
+
+Requirements: 
+
+• Candidate should be from Electronics / Semiconductor industry only
+• Should have relevant experience in Marketing of electronics components, demand creation activities
+• Must have strong communication & presentation skills along with excellent interpersonal skills
+
+
+Good to have skills: MS-Office skills, specifically strong MS-Excel & PowerPoint","msexcel,powerpoint",5,internship
+AI Product Manager,GroMo,"Delhi Cantonment, Delhi, India","Key Responsibilities
+
+ Define and evolve the product roadmap for an AI-native health insurance sales assistant.
+ Strong experience and expertise in Prompt Engineering.
+ Bring first principles thinking to product development - obsess over the user journey, the pain points, and the metrics that matter.
+ Prioritize features that drive sales conversions, reduce agent effort, and differentiate us from anything else in the market.
+ Collaborate with AI engineers to define use-cases, conversational flows, and sales playbooks powered by LLMs
+ Own prompt iteration, testing, and success benchmarks - you should be hands-on in evaluating outputs and improving them daily.
+ Work closely with design, engineering, and compliance to ensure conversations are persuasive, empathetic, compliant, and business-aligned.
+ Run tight build-measure-learn loops. Be the voice of speed and clarity in the team.
+ Set up feedback loops from users (internal agents and external customers), measure funnel drop-offs, and identify moments to optimize.
+ Define product-level evaluation criteria: conversion rate, response quality, lead qualification accuracy, user satisfaction, etc.
+ Build AI workflows that don't just respond, but sell - guiding users from interest to conversion like a top 1% salesperson.
+ Collaborate with data science to implement live dashboards for monitoring LLM effectiveness and fine-tuning based on real outcomes.","llm,python,sql",6,internship
+frontend developer,google,"noida,india",looking for a front end developer that has skills of HTML CSS ,"html,css,git",0,internship
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
