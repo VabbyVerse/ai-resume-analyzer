@@ -12,7 +12,7 @@ A Streamlit web application that uses a Sentence-Transformer model to analyze re
 
 ## 📸 Screenshot
 
-![App Screenshot](screenshot.png)
+![App Screenshot]("C:\Users\Vaibhav Rathore\OneDrive\Pictures\Screenshots\Screenshot 2025-09-27 201433.png")
 
 ## 🛠️ Tech Stack
 
