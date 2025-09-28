@@ -1,7 +1,18 @@
 import re
+import spacy
+from spacy.matcher import PhraseMatcher
 import PyPDF2
 from datetime import datetime
 import pandas as pd
+
+# IMPORTANT: We are now loading the medium spaCy model
+try:
+    nlp = spacy.load("en_core_web_md")
+except OSError:
+    print("Downloading 'en_core_web_md' model... This may take a moment.")
+    from spacy.cli import download
+    download("en_core_web_md")
+    nlp = spacy.load("en_core_web_md")
 
 def extract_text_from_pdf(file_obj):
     try:
@@ -24,20 +35,21 @@ def extract_email(text):
     return match.group(0) if match else "Email not found"
 
 def extract_skills(text):
-    """Extracts skills using regex and the skills_list.txt file."""
     try:
         with open('skills_list.txt', 'r') as f:
-            skills_list = [line.strip() for line in f]
+            skills_list = [line.strip().lower() for line in f]
     except FileNotFoundError:
         return ["SKILLS FILE NOT FOUND"]
     
-    # Build a regex pattern to find any of the skills as whole words
-    skill_pattern = r"\b(" + "|".join(re.escape(skill) for skill in skills_list) + r")\b"
+    matcher = PhraseMatcher(nlp.vocab, attr='LOWER')
+    patterns = [nlp.make_doc(skill) for skill in skills_list]
+    matcher.add("SKILL", patterns)
     
-    found_skills = re.findall(skill_pattern, text, re.IGNORECASE)
+    doc = nlp(text)
+    matches = matcher(doc)
     
-    # Return a unique, sorted list of skills found
-    return sorted(list(set(skill.lower() for skill in found_skills)))
+    found_skills = set(doc[start:end].text.lower() for _, start, end in matches)
+    return list(found_skills)
 
 def extract_experience(text):
     date_pattern = r'((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)[\s,]+\d{4}|(?:\d{1,2}\/\d{4}))\s*-\s*((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)[\s,]+\d{4}|(?:\d{1,2}\/\d{4})|Present|Current)'
@@ -47,6 +59,7 @@ def extract_experience(text):
     
     for match in matches:
         start_date = pd.to_datetime(match.group(1), errors='coerce')
+        
         if match.group(2).lower() in ['present', 'current']:
             end_date = pd.to_datetime(datetime.now())
         else:
