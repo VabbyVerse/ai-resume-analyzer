@@ -5,7 +5,7 @@ import PyPDF2
 from datetime import datetime
 import pandas as pd
 
-# IMPORTANT: We are now loading the medium spaCy model
+#loading the spacy model medium size
 try:
     nlp = spacy.load("en_core_web_md")
 except OSError:

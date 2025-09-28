@@ -26,37 +26,37 @@ def load_and_process_data(data_path, _model):
 
 jobs_df = load_and_process_data('my_jobs.csv', model)
 
-# --- SIDEBAR ---
+# ye sidebar ke liya hai
 with st.sidebar:
     st.header("Upload Your Resume")
     uploaded_resume = st.file_uploader("Choose a PDF file", type=["pdf"])
     st.markdown("---")
 
-    # --- NEW FEATURE: JOB TYPE FILTER ---
+    # je job filter ke liya hai
     st.header("🔍 Job Filter")
     job_filter = st.selectbox(
         "Select job type",
         ("All Jobs", "Internships Only")
     )
-    # --- END OF NEW FEATURE ---
+    # end
     
     st.markdown("---")
     st.header("About")
     st.info("This AI-powered tool analyzes your resume against a dataset of job descriptions to find your best match.")
 
-# --- MAIN PAGE ---
+# main page
 st.title("🚀 AI Resume Analyzer & Job Matcher")
 st.write("Welcome! Upload your resume and select a job type on the left to get started.")
 
 if uploaded_resume:
     if jobs_df is not None:
         
-        # --- NEW FEATURE: FILTERING LOGIC ---
+        #  NEW FEATURE FILTERING LOGIC 
         filtered_jobs_df = jobs_df.copy()
         if job_filter == "Internships Only":
             # Filter the DataFrame to only include rows where job_type is 'Internship'
             filtered_jobs_df = jobs_df[jobs_df['job_type'].str.contains("Internship", case=False, na=False)]
-        # --- END OF NEW FEATURE ---
+        # END feature
 
         with st.spinner("Analyzing your resume..."):
             resume_data = parsher.parse_resume(uploaded_resume)
@@ -64,7 +64,7 @@ if uploaded_resume:
         if resume_data:
             st.success("Resume analysis complete!")
             
-            # ... (Resume Analysis display code remains the same) ...
+            # (Resume Analysis display code remains the same) 
             st.header("📄 Your Resume Analysis")
             col1, col2 = st.columns(2)
             with col1:
@@ -85,7 +85,7 @@ if uploaded_resume:
 
             st.header(f"🎯 Top Job Matches for You ({job_filter})")
             if top_matches:
-                # ... (The rest of the display loop for matches remains the same) ...
+                #  (The rest of the display loop for matches remains the same) 
                 for i, match in enumerate(top_matches):
                     with st.expander(f"**{i+1}. {match['job_title']} at {match['company']}** (Match Score: {match['score']:.2%})"):
                         exp_required = match['min_experience_years']
